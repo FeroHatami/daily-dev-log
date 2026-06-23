@@ -313,3 +313,53 @@ Daily development log generated at 10:14.
 ```
 
 
+
+## 2026-06-23
+
+Daily development log generated at 10:00.
+
+### Project activity checked
+
+- Co-working had local changes:
+```
+?? the-padel-stop-deploy.zip
+?? the-padel-stop-site.zip
+?? the-padel-stop-site/
+```
+
+- HATAMI-SuperApp had local changes:
+```
+ M obsidian-vault/.obsidian/app.json
+ M obsidian-vault/.obsidian/graph.json
+ M obsidian-vault/.obsidian/workspace.json
+```
+
+- Padel Court had local changes:
+```
+?? .DS_Store
+?? README.md
+?? data/
+?? package.json
+?? public/
+?? server.js
+?? test/
+```
+
+- city-intelligence-cockpit had local changes:
+```
+ M README.md
+ M docs/final-verification-report.md
+ M docs/manual-qa-checklist.md
+ M docs/project-health-check.md
+ M open-source/TerriaMap/wwwroot/init/city-intelligence.json
+ M scripts/project-health-check.sh
+?? obsidian-vault/.obsidian/graph.json
+?? obsidian-vault/06-User-Guide-and-Platform-Overview.md.md
+```
+
+- daily-dev-log had local changes:
+```
+ M progress.md
+```
+
+
