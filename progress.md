@@ -413,3 +413,55 @@ Daily development log generated at 10:00.
 ```
 
 
+
+## 2026-06-25
+
+Daily development log generated at 10:05.
+
+### Project activity checked
+
+- BeSpoke had local changes:
+```
+ M docs/.DS_Store
+?? .DS_Store
+?? src/.DS_Store
+```
+
+- Co-working had local changes:
+```
+?? the-padel-stop-deploy.zip
+?? the-padel-stop-site.zip
+?? the-padel-stop-site/
+```
+
+- Padel Court had local changes:
+```
+?? .DS_Store
+?? README.md
+?? data/
+?? package.json
+?? public/
+?? server.js
+?? test/
+```
+
+- city-intelligence-cockpit had local changes:
+```
+ D obsidian-vault/.obsidian/appearance.json
+ D obsidian-vault/.obsidian/core-plugins.json
+ D obsidian-vault/00-Project-Overview.md
+ D obsidian-vault/01-Architecture.md
+ D obsidian-vault/02-MVP-Roadmap.md
+ D obsidian-vault/03-Data-Sources.md
+ D obsidian-vault/04-Codex-Prompts.md
+ D obsidian-vault/05-City-Intelligence-Cockpit-Customization.md
+?? obsidian-vault-city-intelligence/
+```
+
+- daily-dev-log had local changes:
+```
+ M progress.md
+?? .DS_Store
+```
+
+
