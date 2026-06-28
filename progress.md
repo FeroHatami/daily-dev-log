@@ -645,3 +645,93 @@ Daily development log generated at 10:02.
 ```
 
 
+
+## 2026-06-28
+
+Daily development log generated at 10:05.
+
+### Project activity checked
+
+- BeSpoke had local changes:
+```
+ M docs/.DS_Store
+?? .DS_Store
+?? src/.DS_Store
+```
+
+- BilanzAI had local changes:
+```
+?? .env.example
+?? .gitignore
+?? .npmrc
+?? BilanzAI-obsidian/
+?? README.md
+?? apps/
+?? docker-compose.yml
+?? eslint.config.mjs
+?? package.json
+?? packages/
+?? pnpm-lock.yaml
+?? pnpm-workspace.yaml
+?? prisma/
+?? tsconfig.base.json
+?? vitest.config.ts
+```
+
+- Co-working had local changes:
+```
+?? the-padel-stop-deploy.zip
+?? the-padel-stop-site.zip
+?? the-padel-stop-site/
+```
+
+- HATAMI-SuperApp had local changes:
+```
+?? obsidian-vault/15-How-To-Run-HATAMI-Locally.md
+```
+
+- Padel Court had local changes:
+```
+?? .DS_Store
+?? README.md
+?? data/
+?? package.json
+?? public/
+?? server.js
+?? test/
+```
+
+- city-intelligence-cockpit had local changes:
+```
+ M .gitignore
+ M README.md
+ M docs/architecture.md
+ M docs/data-sources.md
+ M docs/known-limitations.md
+ M docs/manual-qa-checklist.md
+ M docs/project-health-check.md
+ D obsidian-vault/.obsidian/appearance.json
+ D obsidian-vault/.obsidian/core-plugins.json
+ D obsidian-vault/00-Project-Overview.md
+ D obsidian-vault/01-Architecture.md
+ D obsidian-vault/02-MVP-Roadmap.md
+ D obsidian-vault/03-Data-Sources.md
+ D obsidian-vault/04-Codex-Prompts.md
+ D obsidian-vault/05-City-Intelligence-Cockpit-Customization.md
+ M open-source/TerriaMap/lib/Views/UserInterface.jsx
+ M open-source/TerriaMap/wwwroot/init/city-intelligence.json
+ M scripts/project-health-check.sh
+?? billionaire-intelligence/
+?? docs/billionaire-intelligence.md
+?? obsidian-vault-city-intelligence/
+?? open-source/TerriaMap/lib/Views/BillionaireIntelligencePanel.jsx
+?? open-source/TerriaMap/wwwroot/data/billionaire-intelligence/
+```
+
+- daily-dev-log had local changes:
+```
+ M progress.md
+?? .DS_Store
+```
+
+
