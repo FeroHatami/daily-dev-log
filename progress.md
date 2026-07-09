@@ -1373,3 +1373,75 @@ Daily development log generated at 10:00.
 ```
 
 
+
+## 2026-07-09
+
+Daily development log generated at 10:00.
+
+### Project activity checked
+
+- 20260515-PadelCourt had local changes:
+```
+?? .editorconfig
+?? .gitattributes
+?? .github/
+?? .gitignore
+?? CHANGELOG.md
+?? CONTRIBUTING.md
+?? LICENSE
+?? Obsidian-PadelCourt/
+?? README.md
+?? archive/
+?? deployment/
+?? docs/
+?? website/
+```
+
+- 20260615-city-intelligence-cockpit had local changes:
+```
+ M .gitignore
+ M README.md
+ M docs/architecture.md
+ M docs/data-sources.md
+ M docs/known-limitations.md
+ M docs/manual-qa-checklist.md
+ M docs/project-health-check.md
+ D obsidian-vault/.obsidian/appearance.json
+ D obsidian-vault/.obsidian/core-plugins.json
+ D obsidian-vault/00-Project-Overview.md
+ D obsidian-vault/01-Architecture.md
+ D obsidian-vault/02-MVP-Roadmap.md
+ D obsidian-vault/03-Data-Sources.md
+ D obsidian-vault/04-Codex-Prompts.md
+ D obsidian-vault/05-City-Intelligence-Cockpit-Customization.md
+ M open-source/TerriaMap/lib/Views/UserInterface.jsx
+ M open-source/TerriaMap/wwwroot/init/city-intelligence.json
+ M scripts/project-health-check.sh
+?? billionaire-intelligence/
+?? docs/billionaire-intelligence.md
+?? obsidian-city-intelligence/
+?? open-source/TerriaMap/lib/Views/BillionaireIntelligencePanel.jsx
+?? open-source/TerriaMap/wwwroot/data/billionaire-intelligence/
+```
+
+- 20260625-BeSpoke had local changes:
+```
+ M docs/.DS_Store
+?? .DS_Store
+?? src/.DS_Store
+```
+
+- 20260626-HATAMI-SuperApp had local changes:
+```
+ M obsidian-SuperAPP/.obsidian/workspace.json
+ M "obsidian-SuperAPP/Untitled 1.canvas"
+```
+
+- daily-dev-log had local changes:
+```
+ M progress.md
+?? .DS_Store
+?? Obsidian/
+```
+
+
