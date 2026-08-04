@@ -3439,3 +3439,115 @@ Daily development log generated at 10:10.
 ```
 
 
+
+## 2026-08-04
+
+Daily development log generated at 10:06.
+
+### Project activity checked
+
+- 20260515-PadelCourt had local changes:
+```
+?? .editorconfig
+?? .gitattributes
+?? .github/
+?? .gitignore
+?? CHANGELOG.md
+?? CONTRIBUTING.md
+?? LICENSE
+?? New-Images/
+?? Obsidian-PadelCourt/
+?? README.md
+?? archive/
+?? deployment/
+?? docs/
+?? website/
+```
+
+- 20260615-city-intelligence-cockpit had local changes:
+```
+ M .gitignore
+ M README.md
+ M docs/architecture.md
+ M docs/data-sources.md
+ M docs/known-limitations.md
+ M docs/manual-qa-checklist.md
+ M docs/project-health-check.md
+ D obsidian-vault/.obsidian/appearance.json
+ D obsidian-vault/.obsidian/core-plugins.json
+ D obsidian-vault/00-Project-Overview.md
+ D obsidian-vault/01-Architecture.md
+ D obsidian-vault/02-MVP-Roadmap.md
+ D obsidian-vault/03-Data-Sources.md
+ D obsidian-vault/04-Codex-Prompts.md
+ D obsidian-vault/05-City-Intelligence-Cockpit-Customization.md
+ M open-source/TerriaMap/lib/Views/UserInterface.jsx
+ M open-source/TerriaMap/wwwroot/init/city-intelligence.json
+ M scripts/project-health-check.sh
+?? billionaire-intelligence/
+?? docs/billionaire-intelligence.md
+?? obsidian-city-intelligence/
+?? open-source/TerriaMap/lib/Views/BillionaireIntelligencePanel.jsx
+?? open-source/TerriaMap/wwwroot/data/billionaire-intelligence/
+```
+
+- 20260625-BeSpoke had local changes:
+```
+ M docs/.DS_Store
+?? .DS_Store
+?? src/.DS_Store
+```
+
+- 20260626-HATAMI-SuperApp had local changes:
+```
+ M obsidian-SuperAPP/.obsidian/workspace.json
+ M "obsidian-SuperAPP/Untitled 1.canvas"
+```
+
+- 20260717-MedGrid had local changes:
+```
+ M Obsidian-MedGrid/.obsidian/workspace.json
+ M Obsidian-MedGrid/12-Notes-Inventory.md
+ M medgrid-app/app/api/catalog/threshold/route.ts
+ M medgrid-app/app/api/data/export/route.ts
+ M medgrid-app/app/api/data/import/route.ts
+ M medgrid-app/app/api/inventory/route.ts
+ M medgrid-app/app/api/inventory/scan/route.ts
+ M medgrid-app/app/api/orders/[id]/dispatch/route.ts
+ M medgrid-app/app/api/qr/register/route.ts
+ M medgrid-app/app/api/reorder/route.ts
+ M medgrid-app/app/api/verify/[hash]/route.ts
+ M medgrid-app/app/components/InventoryScanner.tsx
+ M medgrid-app/app/lib/db.ts
+ M medgrid-app/app/page.tsx
+ M medgrid-app/app/qr-manager/page.tsx
+ M medgrid-app/app/qr-test/page.tsx
+ M medgrid-app/app/verify/[hash]/page.tsx
+ M medgrid-app/next.config.ts
+ M medgrid-app/package-lock.json
+ M medgrid-app/package.json
+ M medgrid-app/sample_pharmacy_inventory.csv
+ M medgrid-app/scripts/migrate.js
+?? "Obsidian-MedGrid/Screenshot 2026-07-29 at 6.19.30 PM.jpg"
+?? medgrid-app/Dockerfile
+?? medgrid-app/app/api/auth/
+?? medgrid-app/app/api/health/
+?? medgrid-app/app/lib/audit.ts
+?? medgrid-app/app/lib/auth.ts
+?? medgrid-app/app/lib/env.ts
+?? medgrid-app/app/lib/qr.ts
+?? medgrid-app/app/login/
+?? medgrid-app/app/types/
+?? medgrid-app/docker-compose.yml
+?? medgrid-app/middleware.ts
+?? medgrid-app/public/cannamedicus-logo.png
+```
+
+- daily-dev-log had local changes:
+```
+ M progress.md
+?? .DS_Store
+?? Obsidian/
+```
+
+
