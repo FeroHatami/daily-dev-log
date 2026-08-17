@@ -4583,3 +4583,90 @@ Daily development log generated at 10:08.
 ```
 
 
+
+## 2026-08-17
+
+Daily development log generated at 10:08.
+
+### Project activity checked
+
+- 20260515-PadelCourt had local changes:
+```
+?? .editorconfig
+?? .gitattributes
+?? .github/
+?? .gitignore
+?? CHANGELOG.md
+?? CONTRIBUTING.md
+?? LICENSE
+?? New-Images/
+?? Obsidian-PadelCourt/
+?? README.md
+?? archive/
+?? deployment/
+?? docs/
+?? website/
+```
+
+- 20260615-city-intelligence-cockpit had local changes:
+```
+ M .gitignore
+ M README.md
+ M docs/architecture.md
+ M docs/data-sources.md
+ M docs/known-limitations.md
+ M docs/manual-qa-checklist.md
+ M docs/project-health-check.md
+ D obsidian-vault/.obsidian/appearance.json
+ D obsidian-vault/.obsidian/core-plugins.json
+ D obsidian-vault/00-Project-Overview.md
+ D obsidian-vault/01-Architecture.md
+ D obsidian-vault/02-MVP-Roadmap.md
+ D obsidian-vault/03-Data-Sources.md
+ D obsidian-vault/04-Codex-Prompts.md
+ D obsidian-vault/05-City-Intelligence-Cockpit-Customization.md
+ M open-source/TerriaMap/lib/Views/UserInterface.jsx
+ M open-source/TerriaMap/wwwroot/init/city-intelligence.json
+ M scripts/project-health-check.sh
+?? billionaire-intelligence/
+?? docs/billionaire-intelligence.md
+?? obsidian-city-intelligence/
+?? open-source/TerriaMap/lib/Views/BillionaireIntelligencePanel.jsx
+?? open-source/TerriaMap/wwwroot/data/billionaire-intelligence/
+```
+
+- 20260625-BeSpoke had local changes:
+```
+ M docs/.DS_Store
+?? .DS_Store
+?? src/.DS_Store
+```
+
+- 20260626-HATAMI-SuperApp had local changes:
+```
+ M obsidian-SuperAPP/.obsidian/workspace.json
+ M "obsidian-SuperAPP/Untitled 1.canvas"
+```
+
+- 20260717-MedGrid had local changes:
+```
+ M Obsidian-MedGrid/.obsidian/workspace.json
+ M Obsidian-MedGrid/12-Notes-Inventory.md
+ M Obsidian-MedGrid/13-Notes.md
+?? Obsidian-MedGrid/.obsidian/community-plugins.json
+?? Obsidian-MedGrid/.obsidian/plugins/
+?? Obsidian-MedGrid/14-Credentials.md
+?? Obsidian-MedGrid/15-Sanvivo-Complete-Architecture.md
+?? Obsidian-MedGrid/16-DoktorABC-Architecture.md
+?? "Obsidian-MedGrid/Screenshot 2026-07-29 at 6.19.30 PM.jpg"
+?? "Obsidian-MedGrid/WhatsApp Image 2026-08-05 at 6.12.46 PM.jpeg"
+```
+
+- daily-dev-log had local changes:
+```
+ M progress.md
+?? .DS_Store
+?? Obsidian/
+```
+
+
