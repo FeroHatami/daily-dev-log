@@ -1,0 +1,57 @@
+name: Daily Contribution
+
+on:
+  schedule:
+    - cron: "5 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily-contribution:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create today's entry
+        env:
+          TZ: Europe/Berlin
+        run: |
+          set -euo pipefail
+
+          TODAY="$(date +%Y-%m-%d)"
+
+          if grep -q "^## $TODAY$" progress.md; then
+            echo "Daily entry for $TODAY already exists. Nothing to commit."
+            exit 0
+          fi
+
+          printf '\n## %s\n- Automated development log entry.\n' "$TODAY" >> progress.md
+
+      - name: Commit and push
+        env:
+          GIT_AUTHOR_NAME: ferohatami
+          GIT_AUTHOR_EMAIL: ferohatami@gmail.com
+          GIT_COMMITTER_NAME: ferohatami
+          GIT_COMMITTER_EMAIL: ferohatami@gmail.com
+        run: |
+          set -euo pipefail
+
+          git config user.name "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
+
+          git add progress.md
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          TODAY="$(TZ=Europe/Berlin date +%Y-%m-%d)"
+          git commit -m "Daily development log: $TODAY"
+          git push origin HEAD:main
